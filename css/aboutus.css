@@ -1,0 +1,197 @@
+#main {
+    margin-top: 50px;
+}
+
+#main img {
+    width: 100%;
+}
+
+#main1 {
+    align-items: center;
+}
+
+#d1 {
+    text-align: center;
+    padding-top: 3%;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+#d1 h5 {
+    color: gold;
+}
+
+#d1 P {
+    color: gray;
+    text-align: center;
+
+}
+#d2{
+    width: 100%; /* Set the desired width */
+    height: 500px; /* Set the desired height */
+    overflow: hidden; /* Ensures image doesn't exceed the div */
+    position: relative;
+}
+#d2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fits properly */
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+
+#d2 img:hover {
+    transform: scale(1.2); /* Zoom in on hover */
+}
+
+#d3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 33px;
+    padding: 41px;
+    border-bottom: 1px solid #80808026;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#d3 h1 {
+    color: gold;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+#d3 h5 {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+#d3 p {
+    color: gray;
+    margin-top: 20px;
+}
+
+#d4 {
+    text-align: center;
+    height: 200px;
+    padding-top: 3%;
+    LINE-HEIGHT: 35PX;
+    margin-bottom: 100px;
+}
+
+#d4 h5 {
+    color: gold;
+
+}
+
+#d5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 33px;
+    padding: 10px;
+
+}
+
+#d5 img {
+    width: 100%;
+}
+
+
+#d51 {
+    text-align: left;
+    padding: 2px;
+}
+
+#d51 h3 {
+    margin-top: 20px;
+}
+
+#d51 p {
+    margin-top: 10px;
+    color: gray;
+}
+
+
+#d6 {
+    text-align: center;
+    padding-top: 3%;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+#d6 h5 {
+    color: gold;
+}
+
+#d6 P {
+    color: gray;
+    text-align: center;
+
+}
+
+#d7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 33px;
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+}
+
+#d7 img {
+    height: 200px;
+    width: 200px;
+}
+
+#d7 h2 {
+    margin-top: 20px;
+
+}
+
+#d7 h4 {
+
+    margin-top: 20px;
+}
+
+#d7 p {
+    margin-top: 15px;
+
+}
+
+@media only screen and (min-width : 768px) {
+
+    #d3 {
+        display: flex;
+        flex-direction: row;
+    }
+    #d5 {
+        display: flex;
+        flex-direction: row;
+    }
+    #d7 {
+      
+        display: flex;
+        flex-direction: row;
+        
+    }
+    #d4 {
+        height: 105px;
+    }
+    #main {
+        margin-top: 0;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    #main {
+        margin-top: 30px;
+    }
+}
