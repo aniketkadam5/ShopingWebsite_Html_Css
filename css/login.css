@@ -1,15 +1,13 @@
 
-
 .login-container {
     width: 100%;
-    max-width: 400px;
+    max-width: 310px;
     padding: 20px;
     background: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    margin: 8% 35%;
+    margin: 25% 2%;
 }
-
 .login-form h2 {
     margin-bottom: 20px;
     color: #333;
@@ -75,3 +73,34 @@
 .forgot-password:hover {
     color: #0056b3;
 }
+
+@media only screen and (min-width : 768px){
+    
+
+    .login-container {
+   
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        background: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: 8% 25%;
+    }  
+}
+@media only screen and (min-width : 1200px){
+    
+
+    .login-container {
+   
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        background: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: 8% 35%;
+    }  
+}
+
+

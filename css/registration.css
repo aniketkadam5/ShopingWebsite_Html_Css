@@ -7,7 +7,7 @@
     background: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    margin: 8% 35%;
+    margin: 22% 0%;
 }
 
 .registration-form h2 {
@@ -57,4 +57,31 @@
 
 .register-button:hover {
     background-color: #218838;
+}
+
+@media only screen and (min-width : 768px){
+    
+
+    .registration-container {
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        background: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: 8% 25%;
+    }
+}
+@media only screen and (min-width : 1200px){
+    
+
+    .registration-container {
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        background: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: 8% 35%;
+    }
 }
